@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+<span id="anID">0</span>
+<h2>JavaScript in Head</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+<script>
+function myFunction() {
+    
+var theValue = document.getElementById("anID");
+    theValue.innerHTML = parseInt(theValue.innerHTML) + 10;
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</body>
+</html> 

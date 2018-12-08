@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<title>W3.JS</title>
+<script src="js/w3.js"></script>
+<body>
+
+<table id="id01">
+  <tr>
+    <th>ID Pengguna</th>
+    <th>Email</th>
+    <th>Sandi</th>
+  </tr>
+  <tr w3-repeat="data">
+    <td>{{nama_maskapai}}</td>
+    <td>{{kota_asal}}</td>
+    <td>{{kota_tujuan}}</td>
+  </tr>
+</table>
+
+<script>
+w3.getHttpObject("d_jadwal.php?a1=10&a2=0", myFunction);
+function myFunction(myObject) {
+  w3.displayObject("id01", myObject);
+}
+</script>
+
+</body>
+</html> 

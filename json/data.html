@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<title>W3.JS</title>
+<script src="w3.js"></script>
+<body>
+
+<table id="id01">
+  <tr>
+    <th>ID Pengguna</th>
+    <th>Email</th>
+    <th>Sandi</th>
+  </tr>
+  <tr w3-repeat="data">
+    <td>{{id_pengguna}}</td>
+    <td>{{email}}</td>
+    <td>{{sandi}}</td>
+  </tr>
+</table>
+
+<script>
+w3.getHttpObject("json.php?id=1", myFunction);
+
+function myFunction(myObject) {
+  w3.displayObject("id01", myObject);
+}
+</script>
+
+</body>
+</html> 

@@ -1,0 +1,22 @@
+	v_jadwal_f_daftar_f_masuk_v_tentang	index.php
+	p_daftar
+	p_masuk
+	p_cek_masuk
+	v_profil
+	p_keluar
+	d_tampil_jadwal
+	d_cari_jadwal
+	v_detail_jadwal
+	v_kursi
+	d_tampil_kursi
+	d_cari_kursi
+	v_detail_kursi
+	p_booking
+	v_tiket
+	d_tampil_tiket
+	d_cari_tiker
+	v_cetak_tiket
+view
+proses
+data
+include
